@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>no1 – Matrix Drift Maske</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+  body {
+    margin:0;
+    background:#000;
+    overflow:hidden;
+    font-family:monospace;
+    color:#0f0;
+  }
+
+  /* Vollbild-Container */
+  .matrix-wrap {
+    position:fixed;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    pointer-events:none;
+  }
+
+  /* Matrix-Block */
+  .matrix {
+    white-space:pre;
+    font-size:16px;
+    line-height:1.2;
+    opacity:0.85;
+    animation: drift 12s linear infinite;
+  }
+
+  /* Drift nach unten */
+  @keyframes drift {
+    0%   { transform: translateY(-60vh); }
+    100% { transform: translateY(60vh); }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="matrix-wrap">
+<pre class="matrix">
+010101010101010101010101010101010101010101010101010101010101
+101010010101110101001010101010101010101010101010101010101010
+001010101010101010101010101011010101010101010101010101010101
+101010101001010101010101010101010010101010101010101010101010
+010101010101010101010101010101010101010101010101010101010101
+101010010101110101001010101010101010101010101010101010101010
+001010101010101010101010101011010101010101010101010101010101
+101010101001010101010101010101010010101010101010101010101010
+</pre>
+</div>
+
+</body>
+</html>
 
