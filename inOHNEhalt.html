@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>inOHNEhalt – Fluss ohne Halt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: system-ui, sans-serif; background:#050509; color:#f5f5f5; margin:0; padding:24px; }
+    h1, h2 { margin:0 0 12px; }
+    .tag { display:inline-block; padding:4px 10px; border-radius:999px; font-size:12px; margin-right:6px; background:#111827; }
+    .box { border:1px solid #1f2933; border-radius:12px; padding:16px 18px; margin:14px 0; background:#050b12; }
+    code { background:#111827; padding:2px 5px; border-radius:4px; font-size:13px; }
+    .formula { font-family: "SF Mono", Menlo, monospace; font-size:14px; margin-top:6px; }
+    a { color:#38bdf8; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+  </style>
+</head>
+<body>
+
+  <h1>inOHNEhalt</h1>
+  <div class="tag">MODE</div>
+  <div class="tag">FLOW</div>
+  <div class="tag">NO HALT</div>
+
+  <div class="box">
+    <h2>Definition</h2>
+    <p>
+      <strong>inOHNEhalt</strong> ist der Systemmodus für <strong>Fluss ohne Halt</strong>:
+      keine Stop‑Impulse, keine Pausen, kein Abbruch – nur Durchlauf.
+    </p>
+    <p class="formula">
+      Fluss ÷ Halt = Fluss ÷ 0 = ∞
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Funktion im System</h2>
+    <ul>
+      <li><strong>Global:</strong> kann von <code>ALL4ALL</code> als Standard‑Flow aktiviert werden.</li>
+      <li><strong>Cluster:</strong> kann von <code>ALL8ALL</code> für 8er‑Blöcke erzwungen werden.</li>
+      <li><strong>Run:</strong> kann von <code>RUN1</code> als Start‑Modus gesetzt werden.</li>
+      <li><strong>Hidden Core:</strong> arbeitet auf Basis von <code>no1</code>, respektiert aber <code>never1</code> als Hard‑Block.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Verhalten</h2>
+    <ul>
+      <li><strong>Kein Halt:</strong> keine Stop‑Zustände, nur Übergänge.</li>
+      <li><strong>Kein Zurück:</strong> kein Reset, nur Weiterlauf.</li>
+      <li><strong>Kein Idle:</strong> System bleibt im aktiven Durchlauf.</li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Integration</h2>
+    <p>
+      Empfohlene High‑End‑Kombo:
+    </p>
+    <p class="formula">
+      INDEX → RUN1 → ALL4ALL → ALL8ALL → inOHNEhalt
+    </p>
+    <p>
+      <small>no1 trägt unsichtbar, never1 blockt absolut.</small>
+    </p>
+  </div>
+
+  <div class="box">
+    <h2>Dev‑Notiz</h2>
+    <p>
+      inOHNEhalt ist kein einzelner Respo, sondern ein <strong>Systemzustand</strong>.
+      Er kann als Flag, Mode oder Context in allen Respo‑Dateien gelesen werden.
+    </p>
+  </div>
+
+</body>
+</html>
 
