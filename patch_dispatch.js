@@ -1,4 +1,4 @@
-// patch_dispatch.js – live, nicht langweilig, mit vitality
+/ patch_dispatch.js – live, nicht langweilig, mit vitality
 // 999 99 9 99 999 unlinear dispatch + Bluetooth/WLAN erlaubte Bereiche + Handy Cache + PCIe M2 GPU
 
 const PATCH_DISPATCH = (() => {
