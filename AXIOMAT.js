@@ -1,4 +1,4 @@
-/ AXIOMAT.js - Axiomat reinholen fuer RUN1 - Kernarbeit kein Small Talk
+// AXIOMAT.js - Axiomat reinholen fuer RUN1 - Kernarbeit kein Small Talk
 // kleinste wahrnehmbare nutzbare beweisbare Teilchen = 3
 
 const AXIOMAT = (() => {
